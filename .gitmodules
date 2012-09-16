@@ -1,3 +1,6 @@
-[submodule "taskpaper.vim"]
-	path = taskpaper.vim
+[submodule "bundle/taskpaper"]
+	path = bundle/taskpaper
 	url = git://github.com/davidoc/taskpaper.vim
+[submodule "bundle/pathogen"]
+	path = bundle/pathogen
+	url = git://github.com/tpope/vim-pathogen
