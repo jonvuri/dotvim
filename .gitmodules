@@ -1,0 +1,3 @@
+[submodule "taskpaper.vim"]
+	path = taskpaper.vim
+	url = git://github.com/davidoc/taskpaper.vim
