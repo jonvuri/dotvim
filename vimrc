@@ -8,7 +8,7 @@ set nocompatible
 set clipboard=unnamed
 
 syntax on
-colorscheme Xcode
+colorscheme Tomorrow
 
 set tabstop=4
 set shiftwidth=4
@@ -49,3 +49,9 @@ set fileencoding=utf-8
 
 nnoremap ; :
 nnoremap : ;
+
+" Press space to remove search highlights and message
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+" Disable auto-commenting on newline from commented line
+set formatoptions-=ro
