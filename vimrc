@@ -7,6 +7,9 @@ set nocompatible
 " Make commands like yy, D, p, etc. work with the OSX clipboard
 set clipboard=unnamed
 
+" Make the mouse work
+set mouse=a
+
 syntax on
 colorscheme Tomorrow
 
