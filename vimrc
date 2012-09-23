@@ -58,3 +58,8 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 " Disable auto-commenting on newline from commented line
 set formatoptions-=ro
+
+" Set some Control-bindings to their Cocoa action (Avoid occupied bindings)
+nnoremap <C-a> 0
+nnoremap <C-k> d$
+nnoremap <C-l> zz
