@@ -26,6 +26,10 @@ set showmatch
 
 " Rainbowify lisp parens
 let g:lisp_rainbow=1
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 " Add *.scm to recognized Scheme files (Chicken scheme)
 au BufNewFile,BufRead *.scm set filetype=scheme
