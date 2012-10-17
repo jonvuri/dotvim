@@ -24,6 +24,12 @@ let g:netrw_home=$HOME
 " Show matching braces
 set showmatch
 
+" Rainbowify lisp parens
+let g:lisp_rainbow=1
+
+" Add *.scm to recognized Scheme files (Chicken scheme)
+au BufNewFile,BufRead *.scm set filetype=scheme
+
 " Preserve indent level for new lines
 set autoindent
 
