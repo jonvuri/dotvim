@@ -13,6 +13,7 @@ set mouse=a
 syntax on
 colorscheme Tomorrow
 
+set expandtab
 set tabstop=4
 set shiftwidth=4
 
@@ -73,3 +74,9 @@ set formatoptions-=ro
 nnoremap <C-a> 0
 nnoremap <C-k> d$
 nnoremap <C-l> zz
+
+" Make the display use the space it has
+set display=lastline
+
+" Show status line
+set laststatus=2
