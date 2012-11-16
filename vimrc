@@ -80,3 +80,11 @@ set display=lastline
 
 " Show status line
 set laststatus=2
+
+" Show line numbers (relative in normal mode, absolute in insert and unfocused)
+set rnu
+au InsertEnter * :set nu
+au InsertLeave * :set rnu
+au FocusLost * :set nu
+au FocusGained * :set rnu
+
